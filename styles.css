@@ -1,0 +1,450 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  height: 100vh;
+}
+
+hr {
+  border: 0;
+  margin: 10px;
+  background-color: chartreuse;
+  height: 1.2px;
+}
+
+.pratik {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  background-color: rgb(3, 3, 63);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(238, 111, 111);
+  font-size: 1.04rem;
+}
+
+.toggle-button {
+  display: none;
+}
+
+.section1 {
+  display: flex;
+  margin: 40px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section1 div {
+  width: 30%;
+}
+
+.rightsection img {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.profileimg {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  animation: rainbow-border 5s infinite;
+}
+
+@keyframes rainbow-border {
+  0% {
+    border-color: red;
+  }
+  16.67% {
+    border-color: orange;
+  }
+  33.33% {
+    border-color: yellow;
+  }
+  50% {
+    border-color: green;
+  }
+  66.67% {
+    border-color: blue;
+  }
+  83.33% {
+    border-color: indigo;
+  }
+  100% {
+    border-color: violet;
+  }
+}
+
+.leftsection {
+  font-size: 2.5rem;
+  align-items: center;
+}
+
+.leftsection div {
+  width: 80%;
+}
+
+#element {
+  color: chartreuse;
+}
+
+.icon {
+  height: 30px;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: rgb(153, 153, 226);
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: white;
+  border: 2px solid white;
+}
+
+.buttons1 {
+  padding: 20px;
+  padding-left: 0px;
+}
+
+.section2 {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80vw;
+  height: 100vh;
+}
+
+.timeline {
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 70px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.work {
+  height: 90px;
+  width: 2px;
+  background-color: white;
+}
+
+.img-top {
+  width: 50px;
+  position: relative;
+  top: -50px;
+  left: -20px;
+}
+
+.title {
+  position: relative;
+  top: 50px;
+  width: 200px;
+  left: -55px;
+  font-size: 22px;
+}
+
+.yeardesc {
+  font-size: 15px;
+}
+
+.desc {
+  position: relative;
+  top: 55px;
+  width: 200px;
+  font-size: 15px;
+  left: -55px;
+  color: grey;
+}
+
+.section3 {
+  display: none;
+}
+
+.aboutme {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80vw;
+  height: 70vh;
+}
+
+.skills {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80vw;
+  height: 80vh;
+}
+
+.tech {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+
+.skillimg {
+  width: 120px;
+  height: auto;
+}
+
+.skilltype {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80vw;
+  height: 100vh;
+}
+
+.container {
+  margin-top: 50px;
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  height: 120px;
+  border: 1px solid white;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bubble {
+  background-image: url("https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/ddd68cd4387aad588bd48ca45c2f2290.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+
+#pf {
+  background-image: url("https://cdn.dribbble.com/users/2659777/screenshots/6100524/3.jpg?resize=400x300&vertical=center");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+#qkart {
+  background-image: url("https://cdn.dribbble.com/userupload/3772713/file/still-fc903bb220a0746203642bc9bce89e08.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+#qtify {
+  background-image: url("https://www.91-cdn.com/hub/wp-content/uploads/2022/06/Reverbnation-download-songs.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+#news {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbCIDWfd5afEPq9NtwnOgiDavv6FT3uZ97qg&s");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+#qtrip {
+  background-image: url("https://kubiobuilder.com/wp-content/uploads/2022/08/blog-post-imagine-for-kubio-2-11.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+
+#qtrip:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#qkart:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#qtify:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#news:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#pf:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#bubble:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.education {
+  margin: auto;
+  margin-top: 30px;
+  max-width: 80vw;
+  height: 100vh;
+}
+
+.wrapper {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.school {
+  background-color: rgba(194, 215, 233, 0.729);
+  margin: 60px;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.years {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+.degree {
+  font-size: 25px;
+}
+
+.foot {
+  background-color: rgb(153, 153, 226);
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .right ul {
+    position: absolute;
+    top: 80px;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(3, 3, 63);
+  }
+  .section1 {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+  .section1 .leftsection {
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightsection {
+    width: 72% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .rightsection img {
+    width: 45vw;
+  }
+  .section2 {
+    display: none;
+  }
+  .section3 {
+    margin: auto;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s3img {
+    height: 100px;
+    width: 100px;
+  }
+  .time {
+    margin: 20px;
+  }
+  .s3desc {
+    color: grey;
+  }
+  .right ul {
+    display: none;
+  }
+  .toggle-button {
+    display: block;
+    background-color: rgb(153, 153, 226);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 5px;
+    color: white;
+    border: 2px solid white;
+  }
+  .skills {
+    height: fit-content;
+  }
+  .tech {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .skillimg {
+    width: 60px;
+    height: auto;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  body {
+    min-width: fit-content;
+  }
+}
