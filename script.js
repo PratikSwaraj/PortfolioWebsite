@@ -31,7 +31,7 @@ document.getElementById("bubble").onclick = function () {
 };
 
 document.getElementById("pf").onclick = function () {
-  window.location.href = "";
+  window.location.href = "https://portfolio-website-eight-tau-38.vercel.app/";
 };
 
 document.getElementById("qkart").onclick = function () {
