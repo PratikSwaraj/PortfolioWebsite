@@ -22,7 +22,7 @@ document.getElementById("iconlink").onclick = function () {
 
 document.getElementById("resume").onclick = function () {
   var pdfUrl =
-    "https://drive.google.com/file/d/1Whzj1QktMVXUZLYAbm8oTE0XgAwLxU88/view?usp=drive_link";
+    "https://drive.google.com/file/d/1vRM4G5aSYSdIqGfZEqxH-KZH1QixLXcl/view?usp=drive_link";
   window.open(pdfUrl, "_blank");
 };
 
